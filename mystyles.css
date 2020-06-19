@@ -6,23 +6,6 @@
     <style>
         body{
             font-family: fantasy;
-        }
-       /* The animation code */
-@keyframes example {
-  from {background-color: red;}
-  to {background-color: yellow;}
-}
-
-/* The element to apply the animation to */
-div {
-  width: 100px;
-  height: 100px;
-  background-color: red;
-  animation-name: example;
-  animation-duration: 4s;
-} 
-        
-       
            
      /* Add a black background color to the top navigation */
 .topnav {
@@ -51,6 +34,21 @@ div {
   background-color: fuchsia;
   color: white;
 }
+             }
+       /* The animation code */
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+
+/* The element to apply the animation to */
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+} 
      
         
         </style>
