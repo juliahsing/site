@@ -6,6 +6,9 @@
     <style>
         body{
             font-family: fantasy;
+            background-color: blueviolet
+        }
+       
            
      /* Add a black background color to the top navigation */
 .topnav {
@@ -33,7 +36,9 @@
 .topnav a.active {
   background-color: fuchsia;
   color: white;
-}       
+}
+     
+        
         </style>
     
     </head>
