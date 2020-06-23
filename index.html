@@ -7,16 +7,27 @@
     
     <body>
         
-       <div style="float: right; margin: right">
+         <div style="float: right; margin: bottom">
            <iframe width="560" height="315" src="https://www.youtube.com/embed/6dB5-k3zS-I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      
          </div> 
         <div class="topnav">
           <a class="active" href="index.html">Home</a>
           <a href="contact.html">Contact</a>
           <a href="about.html">About</a>
+          <a href="people.html">People</a>
+          <button class="inputbox" 
+          onclick="alert('Anna is awesome')">Enter</button>
+          <input class="inputbox" id="myinput">
         </div>
         
-        
+        <script>
+            
+            function myfunction() {
+            myinput = document.getElementById("myinput");
+                alert(myinput.value);
+                myinput.value = "";
+            }
         
         
         <h1>Home page</h1>
@@ -26,6 +37,15 @@
         
         <div class="container">
         <h4> This is my website</h4></div>
+    
+    </body>
+    <script>
+    name= "Anna is awesome"; //this is a string variable
+    isAwesome-true; //boolean data type
+   
+    </script>
+    
+</html>his is my website</h4></div>
     
     </body>
     
